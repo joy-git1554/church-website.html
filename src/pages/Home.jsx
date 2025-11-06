@@ -82,6 +82,54 @@ export default function Home() {
                                 </tr>
                             </tbody>
                         </table>
+                        {/* Thursday Fellowships details */}
+                        <section className="bg-white rounded-lg shadow p-6 mb-8">
+                            <h4 className="text-2xl font-bold mb-3 text-blue-900">Thursday Home Fellowships</h4>
+                            <p className="mb-4 text-gray-700">We warmly welcome all members and visitors to join our Thursday home fellowships. These meetings are a space for prayer, sharing, worship and growth in the Word. Whether you are new or have been with us for years, you are welcome — come as you are and be blessed.</p>
+
+                            <h5 className="text-xl font-semibold mb-2">Order of Fellowships</h5>
+                            <div className="overflow-x-auto mb-4">
+                                <table className="min-w-full bg-gray-50 border border-gray-200 rounded-lg text-base">
+                                    <thead>
+                                        <tr>
+                                            <th className="py-2 px-3 border-b text-left whitespace-nowrap">Week</th>
+                                            <th className="py-2 px-3 border-b text-left whitespace-nowrap">Activity</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td className="py-2 px-3 border-b whitespace-nowrap">1st Week</td>
+                                            <td className="py-2 px-3 border-b whitespace-nowrap truncate">Word</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="py-2 px-3 border-b whitespace-nowrap">2nd Week</td>
+                                            <td className="py-2 px-3 border-b whitespace-nowrap truncate">Hymn</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="py-2 px-3 border-b whitespace-nowrap">3rd Week</td>
+                                            <td className="py-2 px-3 border-b whitespace-nowrap truncate">Prayers</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="py-2 px-3 whitespace-nowrap">4th Week</td>
+                                            <td className="py-2 px-3 whitespace-nowrap truncate">Sharing</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <h5 className="text-xl font-semibold mb-2">Home Fellowships</h5>
+                            <p className="mb-2 text-gray-700">These are the Thursday Home Fellowships:</p>
+                            <ul className="list-disc list-inside text-gray-800 mb-4">
+                                <li>Katelembo</li>
+                                <li>Miwani-Kenya Israel</li>
+                                <li>Mumbuni</li>
+                                <li>Kaani-Kaseve</li>
+                                <li>Eastleigh</li>
+                                <li>Church</li>
+                                <li>Katoloni</li>
+                            </ul>
+                            <p className="text-gray-600">If you'd like to join a home fellowship or have questions about meeting locations and hosts, please contact our church office or speak to one of the elders after service. We look forward to fellowshipping with you.</p>
+                        </section>
                     </div>
                 </section>
             </main>
