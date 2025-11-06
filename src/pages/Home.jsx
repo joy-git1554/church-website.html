@@ -88,30 +88,36 @@ export default function Home() {
                             <p className="mb-4 text-gray-700">We warmly welcome all members and visitors to join our Thursday home fellowships. These meetings are a space for prayer, sharing, worship and growth in the Word. Whether you are new or have been with us for years, you are welcome — come as you are and be blessed.</p>
 
                             <h5 className="text-xl font-semibold mb-2">Order of Fellowships</h5>
-                            <div className="overflow-x-auto mb-4">
-                                <table className="min-w-full bg-gray-50 border border-gray-200 rounded-lg text-base">
+                            <div className="mb-4">
+                                {/* Use table-fixed and full width so columns keep their layout on small screens.
+                                    Reduce font size and padding on small devices so the table fits similarly to laptops. */}
+                                <table className="w-full table-fixed bg-gray-50 border border-gray-200 rounded-lg text-sm sm:text-base">
+                                    <colgroup>
+                                        <col className="w-1/3" />
+                                        <col className="w-2/3" />
+                                    </colgroup>
                                     <thead>
                                         <tr>
-                                            <th className="py-2 px-3 border-b text-left whitespace-nowrap">Week</th>
-                                            <th className="py-2 px-3 border-b text-left whitespace-nowrap">Activity</th>
+                                            <th className="py-1 px-2 sm:py-2 sm:px-3 border-b text-left">Week</th>
+                                            <th className="py-1 px-2 sm:py-2 sm:px-3 border-b text-left">Activity</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td className="py-2 px-3 border-b whitespace-nowrap">1st Week</td>
-                                            <td className="py-2 px-3 border-b whitespace-nowrap truncate">Word</td>
+                                            <td className="py-1 px-2 sm:py-2 sm:px-3 border-b">1st Week</td>
+                                            <td className="py-1 px-2 sm:py-2 sm:px-3 border-b">Word</td>
                                         </tr>
                                         <tr>
-                                            <td className="py-2 px-3 border-b whitespace-nowrap">2nd Week</td>
-                                            <td className="py-2 px-3 border-b whitespace-nowrap truncate">Hymn</td>
+                                            <td className="py-1 px-2 sm:py-2 sm:px-3 border-b">2nd Week</td>
+                                            <td className="py-1 px-2 sm:py-2 sm:px-3 border-b">Hymn</td>
                                         </tr>
                                         <tr>
-                                            <td className="py-2 px-3 border-b whitespace-nowrap">3rd Week</td>
-                                            <td className="py-2 px-3 border-b whitespace-nowrap truncate">Prayers</td>
+                                            <td className="py-1 px-2 sm:py-2 sm:px-3 border-b">3rd Week</td>
+                                            <td className="py-1 px-2 sm:py-2 sm:px-3 border-b">Prayers</td>
                                         </tr>
                                         <tr>
-                                            <td className="py-2 px-3 whitespace-nowrap">4th Week</td>
-                                            <td className="py-2 px-3 whitespace-nowrap truncate">Sharing</td>
+                                            <td className="py-1 px-2 sm:py-2 sm:px-3">4th Week</td>
+                                            <td className="py-1 px-2 sm:py-2 sm:px-3">Sharing</td>
                                         </tr>
                                     </tbody>
                                 </table>
