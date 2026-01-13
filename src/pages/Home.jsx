@@ -85,7 +85,10 @@ export default function Home() {
                         {/* Thursday Fellowships details */}
                         <section className="bg-white rounded-lg shadow p-6 mb-8">
                             <h4 className="text-2xl font-bold mb-3 text-blue-900">Thursday Home Fellowships</h4>
-                            <p className="mb-4 text-gray-700">We warmly welcome all members and visitors to join our Thursday home fellowships. These meetings are a space for prayer, sharing, worship and growth in the Word. Whether you are new or have been with us for years, you are welcome — come as you are and be blessed.</p>
+                            <p className="mb-4 text-gray-700">We warmly welcome all members and visitors to join our 
+                                Thursday home fellowships. These meetings are a space for prayer, 
+                                sharing, worship and growth in the Word. Whether you are new or have been with us,
+                                 you are welcome — come and be blessed.</p>
 
                             <h5 className="text-xl font-semibold mb-2">Order of Fellowships</h5>
                             <div className="mb-4">
@@ -134,7 +137,9 @@ export default function Home() {
                                 <li>Church</li>
                                 <li>Katoloni</li>
                             </ul>
-                            <p className="text-gray-600">If you'd like to join a home fellowship or have questions about meeting locations and hosts, please contact our church office or speak to one of the elders after service. We look forward to fellowshipping with you.</p>
+                            <p className="text-gray-600">If you'd like to join a home fellowship or have 
+                                questions about meeting locations and hosts, please contact our church office 
+                                or speak to one of the elders after service. We look forward to fellowshipping with you.</p>
                         </section>
                     </div>
                 </section>
